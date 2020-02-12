@@ -17,6 +17,8 @@ namespace Asignatura
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new informe.FrmAsignatura());
+            //Application.Run(new FrmGuardar());
+            
         }
     }
 }

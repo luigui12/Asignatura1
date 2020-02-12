@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.dsAsignatura = new Asignatura.ds.dsAsignatura();
+            this.dsAsignatura = new Asignatura1.ds.dsAsignatura();
             this.asignaturaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.asignaturaTableAdapter = new Asignatura.ds.dsAsignaturaTableAdapters.AsignaturaTableAdapter();
+            this.asignaturaTableAdapter = new Asignatura1.ds.dsAsignaturaTableAdapters.AsignaturaTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dsAsignatura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.asignaturaBindingSource)).BeginInit();
             this.SuspendLayout();
